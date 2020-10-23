@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="5dp"
+    android:layout_margin="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="Spot name:"
+            android:fontFamily="monospace"
+            android:id="@+id/parkingSpotNameTextView"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/parkingSpotNameTextView"
+            android:text="Name"
+            android:fontFamily="monospace"
+            android:layout_marginLeft="10dp"
+            android:layout_margin="15dp"
+            android:id="@+id/parkingSpotName"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="Address Line"
+            android:fontFamily="monospace"
+            android:id="@+id/addressLineTextView"
+            android:layout_below="@id/parkingSpotNameTextView"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/addressLineTextView"
+            android:text="Locality"
+            android:layout_marginLeft="10dp"
+            android:layout_margin="15dp"
+            android:fontFamily="monospace"
+            android:id="@+id/addressLocalityTextView"
+            android:layout_below="@id/parkingSpotName"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vicinity: "
+            android:id="@+id/vicinityTitle"
+            android:fontFamily="monospace"
+            android:layout_below="@id/addressLineTextView"
+            android:layout_margin="15dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vicinity"
+            android:fontFamily="monospace"
+            android:layout_below="@id/addressLocalityTextView"
+            android:layout_toRightOf="@id/vicinityTitle"
+            android:layout_margin="15dp"
+            android:id="@+id/addressVicinityTextView"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:text="Book Spot"
+            android:background="#3232ff"
+            android:fontFamily="monospace"
+            android:id="@+id/bookSpotButton"
+            />
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>

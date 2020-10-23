@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PayNParkApp</string>
+    <string name="register_text"><u>Register for a new account</u></string>
+    <string name="parking_history"><u>VIEW PARKING HISTORY</u></string>
+</resources>
